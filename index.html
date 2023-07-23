@@ -27,6 +27,8 @@
             colors: {
               "bg-btn": "#E76F51",
               "bg-primary": "rgba(231, 111, 81, 0.10)",
+              "bg-secondary": "#0B0D17",
+              "text-hover": "#E76F5",
             },
           },
         },
@@ -240,7 +242,70 @@
         </div>
       </section>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <main class="container mx-auto"></main>
+
+    <footer class="bg-bg-secondary">
+      <!-- footer section -->
+      <section
+        class="container mx-auto flex flex-col-reverse md:flex-row lg:flex-row gap-5 justify-between items-center md:px-12 lg:px-24 py-5 mt-10 font-manrope text-gray-400 text-center md:text-left lg:text-left"
+      >
+        <div class="text-base font-normal my-auto">
+          <div class="flex gap-3">
+            <a
+              href="./assets/others/extrabike.png"
+              download
+              class="hover:text-white transition-all duration-700 ease-in-out"
+              >Download Now</a
+            >
+            <a
+              href="#"
+              class="hover:text-white transition-all duration-700 ease-in-out"
+              >License</a
+            >
+          </div>
+          <ul class="flex flex-col md:flex-row lg:flex-row gap-2 my-2">
+            <li
+              class="cursor-pointer hover:text-white transition-all duration-700 ease-in-out"
+            >
+              About
+            </li>
+            <li
+              class="cursor-pointer hover:text-white transition-all duration-700 ease-in-out"
+            >
+              Features
+            </li>
+            <li
+              class="cursor-pointer hover:text-white transition-all duration-700 ease-in-out"
+            >
+              Pricing
+            </li>
+            <li
+              class="cursor-pointer hover:text-white transition-all duration-700 ease-in-out"
+            >
+              Careers
+            </li>
+            <li
+              class="cursor-pointer hover:text-white transition-all duration-700 ease-in-out"
+            >
+              Help
+            </li>
+            <li
+              class="cursor-pointer hover:text-white transition-all duration-700 ease-in-out"
+            >
+              Privacy Policy
+            </li>
+          </ul>
+          <small>© 2020 bike. All rights reserved</small>
+        </div>
+        <div class="grid gap-2 w-28">
+          <span class="text-lg font-medium">Get the App</span>
+          <a href="#"
+            ><img src="./assets/others/android.png" alt="android"
+          /></a>
+          <a href="#"><img src="./assets/others/ios.png" alt="ios" /></a>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
